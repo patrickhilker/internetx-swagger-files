@@ -5519,12 +5519,12 @@
           "200" : {
             "description" : "successful operation",
             "schema" : {
-              "originalRef" : "JsonResponseDataByte[]",
-              "$ref" : "#/definitions/JsonResponseDataByte[]"
+              "originalRef" : "JsonResponseDataByte",
+              "$ref" : "#/definitions/JsonResponseDataByte"
             },
             "responseSchema" : {
-              "originalRef" : "JsonResponseDataByte[]",
-              "$ref" : "#/definitions/JsonResponseDataByte[]"
+              "originalRef" : "JsonResponseDataByte",
+              "$ref" : "#/definitions/JsonResponseDataByte"
             }
           }
         }
@@ -21422,7 +21422,7 @@
         }
       }
     },
-    "JsonResponseDataByte[]" : {
+    "JsonResponseDataByte" : {
       "type" : "object",
       "properties" : {
         "stid" : {
